@@ -1,0 +1,16 @@
+name: histgen
+
+on:
+  schedule:
+    - cron:  '1 3 * * *'
+
+jobs:
+  histgen:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Run histgen
+      run: ./histgen
+      shell: bash

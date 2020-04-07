@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -e
+
+URL="..."
+USER="$(git remote show origin | grep Fetch | grep -o 'https://github.com/[^\/]*')"
+DATE="$(date "+%Y_%m_%d")"
+
+mkdir -p history
+curl "$URL" > "history/$DATE"
+
+git config --global user.email "histgen-bot@meain.io"
+git config --global user.name "Histgen"
+
+git add .
+git commit -m "$DATE"
+git push origin master

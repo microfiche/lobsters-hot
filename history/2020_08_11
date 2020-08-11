@@ -1,0 +1,1282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="referrer" content="always" />
+  <meta name="theme-color" content="#AC130D" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <title>Lobsters</title>
+  <link rel="stylesheet" media="all" href="/assets/application-e7fbbb56227657950d1ac4a87cbd70cd3bd79d787f2b2e8e816de3212f1408a3.css" />
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="PIA9us6uKbRbLXOjGTDnhHRsFeypg8kSOcQPiR/p/xuuCDcOQyOPe6K5ryF65vkCeSA8ur7/yXnv0AgJWJzL+Q==" />
+    <link rel="alternate" type="application/rss+xml"
+      title="RSS 2.0" href="/rss" />
+    <link rel="alternate" type="application/rss+xml"
+      title="Comments - RSS 2.0"
+      href="/comments.rss" />
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <div id="headerleft">
+        <a id="l_holder" style="background-color: #520000;"
+          href="/" title="Lobsters (Current traffic: 1%)"></a>
+
+
+        <span class="headerlinks">
+            <a href="/" class="cur_url">Lobsters</a>
+            <a href="/recent" class="">Recent</a>
+            <a href="/comments" class="">Comments</a>
+            <a href="/search" class="">Search</a>
+        </span>
+      </div>
+
+      <div id="headerright">
+        <span class="headerlinks">
+            <a href="/login" class="">Login</a>
+        </span>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+
+
+    <div id="inside">
+
+      
+<ol class="stories list ">
+  <li id="story_wdjrcd" data-shortid="wdjrcd"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">121</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="/s/wdjrcd/tags_flags" rel="ugc noreferrer">Tags and Flags</a>
+    </span>
+      <a class="description_present" title="Hey folks,
+
+You may have noticed we took about 2.5 hours of downtime this morning for a
+performance improvement.
+Previously we memoized the number of `upvotes` and `downvotes` on both the `stories` and `comments` tables.
+Many queries sorted by score, which they had to calculate per-row with `upvotes - downvotes`.
+No queries directly used `upvotes`, so I replaced it by memoizing `score` instead.
+The migration for this locked the tables, so we took downtime - that&#39;s now completed. @355E3..." href="/s/wdjrcd/tags_flags">&#x2636;</a>
+      <span class="tags">
+          <a class="tag tag_announce" title="Site anouncement" href="/t/announce">announce</a>
+      </span>
+
+
+
+    <div class="byline">
+        <a href="/u/pushcx"><img srcset="/avatars/pushcx-16.png 1x, /avatars/pushcx-32.png 2x" class="avatar" alt="pushcx avatar" src="/avatars/pushcx-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/pushcx" class="u-author h-card user_is_author">pushcx</a>
+
+        <span title="2020-08-09 11:39:45 -0500" class="">34 hours ago</span>
+
+          <span class="comments_label">
+            |
+            <a href="/s/wdjrcd/tags_flags">
+              15 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/wdjrcd/tags_flags" class="mobile_comments " style="display: none;">
+  <span>15</span>
+</a>
+</li>
+<li id="story_fswrdo" data-shortid="fswrdo"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">46</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://thephd.github.io/your-c-compiler-and-standard-library-will-not-help-you" rel="ugc noreferrer">Why the C Language Will Never Stop You from Making Mistakes</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_c" title="C programming" href="/t/c">c</a>
+      </span>
+        <a class="domain" href="/domain/thephd.github.io">thephd.github.io</a>
+
+
+
+    <div class="byline">
+        <a href="/u/knl"><img srcset="/avatars/knl-16.png 1x, /avatars/knl-32.png 2x" class="avatar" alt="knl avatar" src="/avatars/knl-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/knl" class="u-author h-card ">knl</a>
+
+        <span title="2020-08-10 07:49:55 -0500" class="">14 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fthephd.github.io%2Fyour-c-compiler-and-standard-library-will-not-help-you" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/fswrdo/why_c_language_will_never_stop_you_from">
+              20 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/fswrdo/why_c_language_will_never_stop_you_from" class="mobile_comments " style="display: none;">
+  <span>20</span>
+</a>
+</li>
+<li id="story_sd1xyt" data-shortid="sd1xyt"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">13</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://lists.gnu.org/archive/html/emacs-devel/2020-08/msg00237.html" rel="ugc noreferrer">Emacs 27.1 released</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_emacs" title="Emacs editor" href="/t/emacs">emacs</a>
+          <a class="tag tag_release" title="Software releases and announcements" href="/t/release">release</a>
+      </span>
+        <a class="domain" href="/domain/lists.gnu.org">lists.gnu.org</a>
+
+
+
+    <div class="byline">
+        <a href="/u/bandali"><img srcset="/avatars/bandali-16.png 1x, /avatars/bandali-32.png 2x" class="avatar" alt="bandali avatar" src="/avatars/bandali-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/bandali" class="u-author h-card ">bandali</a>
+
+        <span title="2020-08-10 18:08:31 -0500" class="">4 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Flists.gnu.org%2Farchive%2Fhtml%2Femacs-devel%2F2020-08%2Fmsg00237.html" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/sd1xyt/emacs_27_1_released">
+              5 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/sd1xyt/emacs_27_1_released" class="mobile_comments " style="display: none;">
+  <span>5</span>
+</a>
+</li>
+<li id="story_naiw9w" data-shortid="naiw9w"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">12</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://healeycodes.com/privacy-focused-analytics-from-scratch/" rel="ugc noreferrer">Privacy Focused Analytics From Scratch</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_privacy" title="Privacy" href="/t/privacy">privacy</a>
+          <a class="tag tag_python" title="Python programming" href="/t/python">python</a>
+          <a class="tag tag_web" title="Web development and news" href="/t/web">web</a>
+      </span>
+        <a class="domain" href="/domain/healeycodes.com">healeycodes.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/healeycodes"><img srcset="/avatars/healeycodes-16.png 1x, /avatars/healeycodes-32.png 2x" class="avatar" alt="healeycodes avatar" src="/avatars/healeycodes-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/healeycodes" class="u-author h-card user_is_author">healeycodes</a>
+
+        <span title="2020-08-10 07:15:57 -0500" class="">14 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fhealeycodes.com%2Fprivacy-focused-analytics-from-scratch%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/naiw9w/privacy_focused_analytics_from_scratch">
+              10 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/naiw9w/privacy_focused_analytics_from_scratch" class="mobile_comments " style="display: none;">
+  <span>10</span>
+</a>
+</li>
+<li id="story_to2cgw" data-shortid="to2cgw"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">21</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://drewdevault.com/2020/08/10/How-to-contribute-to-FOSS.html" rel="ugc noreferrer">I want to contribute to your project, how do I start?</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_programming" title="Use when every tag or no specific tag applies" href="/t/programming">programming</a>
+      </span>
+        <a class="domain" href="/domain/drewdevault.com">drewdevault.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/freddym"><img srcset="/avatars/freddym-16.png 1x, /avatars/freddym-32.png 2x" class="avatar" alt="freddym avatar" src="/avatars/freddym-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/freddym" class="u-author h-card ">freddym</a>
+
+        <span title="2020-08-10 11:04:00 -0500" class="">11 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fdrewdevault.com%2F2020%2F08%2F10%2FHow-to-contribute-to-FOSS.html" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/to2cgw/i_want_contribute_your_project_how_do_i">
+              3 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/to2cgw/i_want_contribute_your_project_how_do_i" class="mobile_comments " style="display: none;">
+  <span>3</span>
+</a>
+</li>
+<li id="story_2ftlzt" data-shortid="2ftlzt"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">16</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://sled.rs/perf" rel="ugc noreferrer">sled theoretical performance guide</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_performance" title="Performance and optimization" href="/t/performance">performance</a>
+      </span>
+        <a class="domain" href="/domain/sled.rs">sled.rs</a>
+
+
+
+    <div class="byline">
+        <a href="/u/spacejam"><img srcset="/avatars/spacejam-16.png 1x, /avatars/spacejam-32.png 2x" class="avatar" alt="spacejam avatar" src="/avatars/spacejam-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/spacejam" class="u-author h-card user_is_author">spacejam</a>
+
+        <span title="2020-08-10 08:48:26 -0500" class="">13 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fsled.rs%2Fperf" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/2ftlzt/sled_theoretical_performance_guide">
+              3 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/2ftlzt/sled_theoretical_performance_guide" class="mobile_comments " style="display: none;">
+  <span>3</span>
+</a>
+</li>
+<li id="story_rty4wa" data-shortid="rty4wa"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">6</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://cmacr.ae/post/2020-08-10-cloud-like-infra-at-home-part-1/" rel="ugc noreferrer">&quot;Cloud-like&quot; Infrastructure at Home - Part 1: LoadBalancers on the Metal</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_devops" title="DevOps" href="/t/devops">devops</a>
+          <a class="tag tag_linux" title="Linux" href="/t/linux">linux</a>
+          <a class="tag tag_networking" title="Networking" href="/t/networking">networking</a>
+      </span>
+        <a class="domain" href="/domain/cmacr.ae">cmacr.ae</a>
+
+
+
+    <div class="byline">
+        <a href="/u/cmacrae"><img srcset="/avatars/cmacrae-16.png 1x, /avatars/cmacrae-32.png 2x" class="avatar" alt="cmacrae avatar" src="/avatars/cmacrae-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/cmacrae" class="u-author h-card user_is_author">cmacrae</a>
+
+        <span title="2020-08-10 14:47:01 -0500" class="">7 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fcmacr.ae%2Fpost%2F2020-08-10-cloud-like-infra-at-home-part-1%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/rty4wa/cloud_like_infrastructure_at_home_part_1">
+              1 comment</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/rty4wa/cloud_like_infrastructure_at_home_part_1" class="mobile_comments " style="display: none;">
+  <span>1</span>
+</a>
+</li>
+<li id="story_wrbtsh" data-shortid="wrbtsh"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">12</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="/s/wrbtsh/what_are_you_doing_this_week" rel="ugc noreferrer">What are you doing this week?</a>
+    </span>
+      <a class="description_present" title="What are you doing this week? Feel free to share!
+
+Keep in mind it’s OK to do nothing at all, too." href="/s/wrbtsh/what_are_you_doing_this_week">&#x2636;</a>
+      <span class="tags">
+          <a class="tag tag_ask tag_is_media" title="Ask Lobsters" href="/t/ask">ask</a>
+          <a class="tag tag_programming" title="Use when every tag or no specific tag applies" href="/t/programming">programming</a>
+      </span>
+
+
+
+    <div class="byline">
+        <a href="/u/caius"><img srcset="/avatars/caius-16.png 1x, /avatars/caius-32.png 2x" class="avatar" alt="caius avatar" src="/avatars/caius-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/caius" class="u-author h-card user_is_author">caius</a>
+
+        <span title="2020-08-10 06:01:21 -0500" class="">16 hours ago</span>
+
+          <span class="comments_label">
+            |
+            <a href="/s/wrbtsh/what_are_you_doing_this_week">
+              33 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/wrbtsh/what_are_you_doing_this_week" class="mobile_comments " style="display: none;">
+  <span>33</span>
+</a>
+</li>
+<li id="story_k6llg9" data-shortid="k6llg9"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">12</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://eager.io/blog/the-languages-which-almost-were-css/" rel="ugc noreferrer">The Languages Which Almost Became CSS</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_css" title="Cascading Style Sheets" href="/t/css">css</a>
+          <a class="tag tag_historical" title="History and retrospectives (not for things that happen to be old)" href="/t/historical">historical</a>
+      </span>
+        <a class="domain" href="/domain/eager.io">eager.io</a>
+
+
+
+    <div class="byline">
+        <a href="/u/friendlysock"><img srcset="/avatars/friendlysock-16.png 1x, /avatars/friendlysock-32.png 2x" class="avatar" alt="friendlysock avatar" src="/avatars/friendlysock-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/friendlysock" class="u-author h-card ">friendlysock</a>
+
+        <span title="2020-08-10 11:47:23 -0500" class="">10 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Feager.io%2Fblog%2Fthe-languages-which-almost-were-css%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/k6llg9/languages_which_almost_became_css">
+              1 comment</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/k6llg9/languages_which_almost_became_css" class="mobile_comments " style="display: none;">
+  <span>1</span>
+</a>
+</li>
+<li id="story_usqmnt" data-shortid="usqmnt"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">15</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="http://www.youtube.com/playlist?list=PLBqWQH1MiwBSK9wuaATNS701c43VYVTuc" rel="ugc noreferrer">Haskell Love 2020</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_video tag_is_media" title="Link to a video" href="/t/video">video</a>
+          <a class="tag tag_event" title="Events, conferences, and meetups" href="/t/event">event</a>
+          <a class="tag tag_haskell" title="Haskell programming" href="/t/haskell">haskell</a>
+      </span>
+        <a class="domain" href="/domain/youtube.com">youtube.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/niko2342"><img srcset="/avatars/niko2342-16.png 1x, /avatars/niko2342-32.png 2x" class="avatar" alt="niko2342 avatar" src="/avatars/niko2342-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/niko2342" class="u-author h-card ">niko2342</a>
+
+        <span title="2020-08-10 09:38:41 -0500" class="">12 hours ago</span>
+
+          |
+          <a href="https://archive.md/http%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLBqWQH1MiwBSK9wuaATNS701c43VYVTuc" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/usqmnt/haskell_love_2020">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/usqmnt/haskell_love_2020" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_omc5xf" data-shortid="omc5xf"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">4</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://adi.tilde.institute/cbl/" rel="ugc noreferrer">sh(1) simple combined log analytics for static sites (wip)</a>
+    </span>
+      <a class="description_present" title="Common Log: https://adi.tilde.institute/cl/
+
+OpenBSD httpd(8) Forwarded Log: https://adi.tilde.institute/fl/
+
+Current dependencies include realpath(1) which is not POSIX compliant." href="/s/omc5xf/sh_1_simple_combined_log_analytics_for">&#x2636;</a>
+      <span class="tags">
+          <a class="tag tag_unix" title="*nix" href="/t/unix">unix</a>
+          <a class="tag tag_web" title="Web development and news" href="/t/web">web</a>
+      </span>
+        <a class="domain" href="/domain/adi.tilde.institute">adi.tilde.institute</a>
+
+
+
+    <div class="byline">
+        <a href="/u/adriangrigore"><img srcset="/avatars/adriangrigore-16.png 1x, /avatars/adriangrigore-32.png 2x" class="avatar" alt="adriangrigore avatar" src="/avatars/adriangrigore-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/adriangrigore" class="u-author h-card user_is_author">adriangrigore</a>
+
+        <span title="2020-08-10 14:57:22 -0500" class="">7 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fadi.tilde.institute%2Fcbl%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/omc5xf/sh_1_simple_combined_log_analytics_for">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/omc5xf/sh_1_simple_combined_log_analytics_for" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_jt2udm" data-shortid="jt2udm"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">13</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://thehistoryoftheweb.com/how-we-got-the-favicon/" rel="ugc noreferrer">How We Got the Favicon</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_browsers" title="Web browsers" href="/t/browsers">browsers</a>
+          <a class="tag tag_historical" title="History and retrospectives (not for things that happen to be old)" href="/t/historical">historical</a>
+      </span>
+        <a class="domain" href="/domain/thehistoryoftheweb.com">thehistoryoftheweb.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/friendlysock"><img srcset="/avatars/friendlysock-16.png 1x, /avatars/friendlysock-32.png 2x" class="avatar" alt="friendlysock avatar" src="/avatars/friendlysock-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/friendlysock" class="u-author h-card ">friendlysock</a>
+
+        <span title="2020-08-10 10:33:24 -0500" class="">11 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fthehistoryoftheweb.com%2Fhow-we-got-the-favicon%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/jt2udm/how_we_got_favicon">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/jt2udm/how_we_got_favicon" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_h5jvk5" data-shortid="h5jvk5"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">4</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="http://twinbeard.com/how-i-modernized-my-flash-game.html" rel="ugc noreferrer">How I Modernized My Flash Game</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_games" title="Game design and study" href="/t/games">games</a>
+          <a class="tag tag_programming" title="Use when every tag or no specific tag applies" href="/t/programming">programming</a>
+      </span>
+        <a class="domain" href="/domain/twinbeard.com">twinbeard.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/calvin"><img srcset="/avatars/calvin-16.png 1x, /avatars/calvin-32.png 2x" class="avatar" alt="calvin avatar" src="/avatars/calvin-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/calvin" class="u-author h-card ">calvin</a>
+
+        <span title="2020-08-10 19:09:50 -0500" class="">3 hours ago</span>
+
+          |
+          <a href="https://archive.md/http%3A%2F%2Ftwinbeard.com%2Fhow-i-modernized-my-flash-game.html" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/h5jvk5/how_i_modernized_my_flash_game">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/h5jvk5/how_i_modernized_my_flash_game" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_3c1oog" data-shortid="3c1oog"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">11</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://github.com/python/mypy/tree/master/mypyc" rel="ugc noreferrer">Mypyc - Mypy to Python C Extension Compiler</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_c" title="C programming" href="/t/c">c</a>
+          <a class="tag tag_compilers" title="Compiler design" href="/t/compilers">compilers</a>
+          <a class="tag tag_python" title="Python programming" href="/t/python">python</a>
+      </span>
+        <a class="domain" href="/domain/github.com">github.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/ducdetronquito"><img srcset="/avatars/ducdetronquito-16.png 1x, /avatars/ducdetronquito-32.png 2x" class="avatar" alt="ducdetronquito avatar" src="/avatars/ducdetronquito-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/ducdetronquito" class="u-author h-card ">ducdetronquito</a>
+
+        <span title="2020-08-10 07:44:03 -0500" class="">14 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fgithub.com%2Fpython%2Fmypy%2Ftree%2Fmaster%2Fmypyc" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/3c1oog/mypyc_mypy_python_c_extension_compiler">
+              4 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/3c1oog/mypyc_mypy_python_c_extension_compiler" class="mobile_comments " style="display: none;">
+  <span>4</span>
+</a>
+</li>
+<li id="story_lhafbc" data-shortid="lhafbc"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">5</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://www.radare.org/con/2020/" rel="ugc noreferrer">r2con2020</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_event" title="Events, conferences, and meetups" href="/t/event">event</a>
+          <a class="tag tag_reversing" title="Reverse engineering" href="/t/reversing">reversing</a>
+      </span>
+        <a class="domain" href="/domain/radare.org">radare.org</a>
+
+
+
+    <div class="byline">
+        <a href="/u/sevan"><img srcset="/avatars/sevan-16.png 1x, /avatars/sevan-32.png 2x" class="avatar" alt="sevan avatar" src="/avatars/sevan-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/sevan" class="u-author h-card ">sevan</a>
+
+        <span title="2020-08-10 15:22:23 -0500" class="">6 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fwww.radare.org%2Fcon%2F2020%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/lhafbc/r2con2020">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/lhafbc/r2con2020" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_b4rfzt" data-shortid="b4rfzt"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">39</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://carolchen.me/blog/past-webdev/" rel="ugc noreferrer">Ideas for Programmers Looking Beyond Web Development</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_programming" title="Use when every tag or no specific tag applies" href="/t/programming">programming</a>
+      </span>
+        <a class="domain" href="/domain/carolchen.me">carolchen.me</a>
+
+
+
+    <div class="byline">
+        <a href="/u/c-cube"><img srcset="/avatars/c-cube-16.png 1x, /avatars/c-cube-32.png 2x" class="avatar" alt="c-cube avatar" src="/avatars/c-cube-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/c-cube" class="u-author h-card ">c-cube</a>
+
+        <span title="2020-08-09 14:59:21 -0500" class="">31 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fcarolchen.me%2Fblog%2Fpast-webdev%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/b4rfzt/ideas_for_programmers_looking_beyond_web">
+              14 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/b4rfzt/ideas_for_programmers_looking_beyond_web" class="mobile_comments " style="display: none;">
+  <span>14</span>
+</a>
+</li>
+<li id="story_vljcbr" data-shortid="vljcbr"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">1</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://warpsql.blog/" rel="ugc noreferrer">WarpSQL: High performance analytics for MySQL</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_databases" title="Databases (SQL, NoSQL)" href="/t/databases">databases</a>
+      </span>
+        <a class="domain" href="/domain/warpsql.blog">warpsql.blog</a>
+
+
+
+    <div class="byline">
+        <a href="/u/sanxiyn"><img srcset="/avatars/sanxiyn-16.png 1x, /avatars/sanxiyn-32.png 2x" class="avatar" alt="sanxiyn avatar" src="/avatars/sanxiyn-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/sanxiyn" class="u-author h-card ">sanxiyn</a>
+
+        <span title="2020-08-10 22:12:42 -0500" class="">2 minutes ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fwarpsql.blog%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/vljcbr/warpsql_high_performance_analytics_for">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/vljcbr/warpsql_high_performance_analytics_for" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_xqq32e" data-shortid="xqq32e"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">1</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://github.com/SoptikHa2/video-summarizer" rel="ugc noreferrer">Video Summarizer - browser extension that speeds up videos if there&#39;s noone talking</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_show tag_is_media" title="Show Lobsters / Projects" href="/t/show">show</a>
+          <a class="tag tag_release" title="Software releases and announcements" href="/t/release">release</a>
+      </span>
+        <a class="domain" href="/domain/github.com">github.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/Soptik"><img srcset="/avatars/Soptik-16.png 1x, /avatars/Soptik-32.png 2x" class="avatar" alt="Soptik avatar" src="/avatars/Soptik-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/Soptik" class="u-author h-card user_is_author">Soptik</a>
+
+        <span title="2020-08-10 16:13:32 -0500" class="">6 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fgithub.com%2FSoptikHa2%2Fvideo-summarizer" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/xqq32e/video_summarizer_browser_extension">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/xqq32e/video_summarizer_browser_extension" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_vzjgdm" data-shortid="vzjgdm"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">25</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://fitzcarraldoblog.wordpress.com/2020/08/09/that-ups-you-bought-for-your-home-server-may-not-be-as-useful-as-you-think/" rel="ugc noreferrer">That UPS you bought for your home server may not be as useful as you think</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_hardware" title="Hardware" href="/t/hardware">hardware</a>
+      </span>
+        <a class="domain" href="/domain/fitzcarraldoblog.wordpress.com">fitzcarraldoblog.wordpress.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/raymii"><img srcset="/avatars/raymii-16.png 1x, /avatars/raymii-32.png 2x" class="avatar" alt="raymii avatar" src="/avatars/raymii-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/raymii" class="u-author h-card ">raymii</a>
+
+        <span title="2020-08-09 14:37:13 -0500" class="">31 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Ffitzcarraldoblog.wordpress.com%2F2020%2F08%2F09%2Fthat-ups-you-bought-for-your-home-server-may-not-be-as-useful-as-you-think%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/vzjgdm/ups_you_bought_for_your_home_server_may_not">
+              12 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/vzjgdm/ups_you_bought_for_your_home_server_may_not" class="mobile_comments " style="display: none;">
+  <span>12</span>
+</a>
+</li>
+<li id="story_gmoncq" data-shortid="gmoncq"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">1</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://yurichev.com/mirrors/RE/itanium.pdf" rel="ugc noreferrer">Writing Efficient Itanium 2 Assembly Code (2010)</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_pdf tag_is_media" title="Link to a PDF document" href="/t/pdf">pdf</a>
+          <a class="tag tag_assembly" title="Assembly programming" href="/t/assembly">assembly</a>
+      </span>
+        <a class="domain" href="/domain/yurichev.com">yurichev.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/calvin"><img srcset="/avatars/calvin-16.png 1x, /avatars/calvin-32.png 2x" class="avatar" alt="calvin avatar" src="/avatars/calvin-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/calvin" class="u-author h-card ">calvin</a>
+
+        <span title="2020-08-10 21:21:15 -0500" class="">54 minutes ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fyurichev.com%2Fmirrors%2FRE%2Fitanium.pdf" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/gmoncq/writing_efficient_itanium_2_assembly">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/gmoncq/writing_efficient_itanium_2_assembly" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_7q11tu" data-shortid="7q11tu"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">2</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://pythonspeed.com/articles/distributing-software/" rel="ugc noreferrer">Options for packaging your Python code: Wheels, Conda, Docker, and more</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_devops" title="DevOps" href="/t/devops">devops</a>
+          <a class="tag tag_python" title="Python programming" href="/t/python">python</a>
+      </span>
+        <a class="domain" href="/domain/pythonspeed.com">pythonspeed.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/itamarst"><img srcset="/avatars/itamarst-16.png 1x, /avatars/itamarst-32.png 2x" class="avatar" alt="itamarst avatar" src="/avatars/itamarst-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/itamarst" class="u-author h-card user_is_author">itamarst</a>
+
+        <span title="2020-08-10 11:54:49 -0500" class="">10 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fpythonspeed.com%2Farticles%2Fdistributing-software%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/7q11tu/options_for_packaging_your_python_code">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/7q11tu/options_for_packaging_your_python_code" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_mxa5ze" data-shortid="mxa5ze"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">34</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://rachelbythebay.com/w/2020/08/09/lib/" rel="ugc noreferrer">Tripping over the potholes in too many libraries</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_programming" title="Use when every tag or no specific tag applies" href="/t/programming">programming</a>
+          <a class="tag tag_rant" title="Rants and raves" href="/t/rant">rant</a>
+      </span>
+        <a class="domain" href="/domain/rachelbythebay.com">rachelbythebay.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/calvin"><img srcset="/avatars/calvin-16.png 1x, /avatars/calvin-32.png 2x" class="avatar" alt="calvin avatar" src="/avatars/calvin-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/calvin" class="u-author h-card ">calvin</a>
+
+        <span title="2020-08-09 23:37:11 -0500" class="">22 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Frachelbythebay.com%2Fw%2F2020%2F08%2F09%2Flib%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/mxa5ze/tripping_over_potholes_too_many">
+              14 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/mxa5ze/tripping_over_potholes_too_many" class="mobile_comments " style="display: none;">
+  <span>14</span>
+</a>
+</li>
+<li id="story_w1uaf5" data-shortid="w1uaf5"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">2</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://www.javacodegeeks.com/2019/01/right-flow-job-oauth-2-0-flow-should-use.html" rel="ugc noreferrer">The Right Flow For The Job: Which OAuth 2.0 Flow Should I Use? (2019)</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_web" title="Web development and news" href="/t/web">web</a>
+      </span>
+        <a class="domain" href="/domain/javacodegeeks.com">javacodegeeks.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/mooreds"><img srcset="/avatars/mooreds-16.png 1x, /avatars/mooreds-32.png 2x" class="avatar" alt="mooreds avatar" src="/avatars/mooreds-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/mooreds" class="u-author h-card ">mooreds</a>
+
+        <span title="2020-08-10 16:50:13 -0500" class="">5 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fwww.javacodegeeks.com%2F2019%2F01%2Fright-flow-job-oauth-2-0-flow-should-use.html" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/w1uaf5/right_flow_for_job_which_oauth_2_0_flow">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/w1uaf5/right_flow_for_job_which_oauth_2_0_flow" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_vcxzjl" data-shortid="vcxzjl"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">8</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://blog.exploitee.rs/2020/exploiting-vbulletin-a-tale-of-patch-fail/" rel="ugc noreferrer">Exploiting vBulletin: “A Tale of a Patch Fail”</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_php" title="PHP programming" href="/t/php">php</a>
+          <a class="tag tag_security" title="Netsec, appsec, and infosec" href="/t/security">security</a>
+      </span>
+        <a class="domain" href="/domain/blog.exploitee.rs">blog.exploitee.rs</a>
+
+
+
+    <div class="byline">
+        <a href="/u/jvoisin"><img srcset="/avatars/jvoisin-16.png 1x, /avatars/jvoisin-32.png 2x" class="avatar" alt="jvoisin avatar" src="/avatars/jvoisin-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/jvoisin" class="u-author h-card ">jvoisin</a>
+
+        <span title="2020-08-10 04:35:57 -0500" class="">17 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fblog.exploitee.rs%2F2020%2Fexploiting-vbulletin-a-tale-of-patch-fail%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/vcxzjl/exploiting_vbulletin_tale_patch_fail">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/vcxzjl/exploiting_vbulletin_tale_patch_fail" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_u49qgy" data-shortid="u49qgy"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">26</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://fasterthanli.me/articles/surviving-rust-async-interfaces" rel="ugc noreferrer">Surviving Rust async interfaces</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_rust" title="Rust programming" href="/t/rust">rust</a>
+      </span>
+        <a class="domain" href="/domain/fasterthanli.me">fasterthanli.me</a>
+
+
+
+    <div class="byline">
+        <a href="/u/bcongdon"><img srcset="/avatars/bcongdon-16.png 1x, /avatars/bcongdon-32.png 2x" class="avatar" alt="bcongdon avatar" src="/avatars/bcongdon-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/bcongdon" class="u-author h-card ">bcongdon</a>
+
+        <span title="2020-08-09 10:59:58 -0500" class="">35 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Ffasterthanli.me%2Farticles%2Fsurviving-rust-async-interfaces" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/u49qgy/surviving_rust_async_interfaces">
+              6 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/u49qgy/surviving_rust_async_interfaces" class="mobile_comments " style="display: none;">
+  <span>6</span>
+</a>
+</li>
+
+</ol>
+
+<div class="morelink">
+
+    <a href="/page/2">Page 2 &gt;&gt;</a>
+</div>
+
+
+      <div id="footer">
+          <a href="/moderations">Moderation Log</a>
+  <a href="/hats">Hats</a>
+  <a href="/tags">Tags</a>
+
+<a href="https://github.com/lobsters/lobsters/wiki">Wiki</a>
+<a href="/privacy">Privacy</a>
+<a href="/about">About</a>
+
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</body>
+</html>

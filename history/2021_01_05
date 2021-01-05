@@ -1,0 +1,1270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="referrer" content="always" />
+  <meta name="theme-color" content="#AC130D" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <title>Lobsters</title>
+  <link rel="stylesheet" media="all" href="/assets/application-93e233d985f3bccedb12c2d60fa4d4d01e0e0f71e2c7ac6fb4e0922ffe67a12c.css" />
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="0YK2UudiaO+XSv+dWTiLa9YVmVk9KfqIFWK0URDYKWJcgw9CLcRGtW49kVp0LqHFoTdu6AnUYSL8zNzjNG3iTQ==" />
+    <link rel="alternate" type="application/rss+xml"
+      title="RSS 2.0" href="/rss" />
+    <link rel="alternate" type="application/rss+xml"
+      title="Comments - RSS 2.0"
+      href="/comments.rss" />
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <div id="headerleft">
+        <a id="l_holder" style="background-color: #500000;"
+          href="/" title="Lobsters (Current traffic: 0%)"></a>
+
+
+        <span class="headerlinks">
+            <a href="/" class="cur_url">Lobsters</a>
+            <a href="/recent" class="">Recent</a>
+            <a href="/comments" class="">Comments</a>
+            <a href="/search" class="">Search</a>
+        </span>
+      </div>
+
+      <div id="headerright">
+        <span class="headerlinks">
+            <a href="/login" class="">Login</a>
+        </span>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+
+
+    <div id="inside">
+
+      
+<ol class="stories list ">
+  <li id="story_udj6qf" data-shortid="udj6qf"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">152</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="/s/udj6qf/hosting_update" rel="ugc noreferrer">Hosting Update</a>
+    </span>
+      <a class="description_present" title="  Hi folks,
+
+ I&#39;ve migrated the site to a new server setup.
+ We&#39;re now on a 4 vCPU / 8GB RAM / 160GB disk VPS at Digital Ocean with their managed MySQL database. (Which our [replying_comments view](https://github.com/lobsters/lobsters/blob/master/db/views/replying_comments_v09.sql) overwhelms, so that&#39;s off until we figure out how to tune it or redesign the feature.)
+
+Our sysadmin @alynpost is resigning as moderator and sysadmin to focus on other projects.
+Prgmr will no longer be donati..." href="/s/udj6qf/hosting_update">&#x2636;</a>
+      <span class="tags">
+          <a class="tag tag_announce" title="Site anouncement" href="/t/announce">announce</a>
+      </span>
+
+
+
+    <div class="byline">
+        <a href="/u/pushcx"><img srcset="/avatars/pushcx-16.png 1x, /avatars/pushcx-32.png 2x" class="avatar" alt="pushcx avatar" src="/avatars/pushcx-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/pushcx" class="u-author h-card user_is_author">pushcx</a>
+
+        <span title="2021-01-03 19:36:07 -0600">26 hours ago</span>
+
+          <span class="comments_label">
+            |
+            <a href="/s/udj6qf/hosting_update">
+              36 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/udj6qf/hosting_update" class="mobile_comments " style="display: none;">
+  <span>36</span>
+</a>
+</li>
+<li id="story_sy8ulu" data-shortid="sy8ulu"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">13</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://notes.neeasade.net/systemd-user-services.html" rel="ugc noreferrer">systemd user services</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_systemd" title="Linux systemd" href="/t/systemd">systemd</a>
+      </span>
+        <a class="domain" href="/domain/notes.neeasade.net">notes.neeasade.net</a>
+
+
+
+    <div class="byline">
+        <a href="/u/neeasade"><img srcset="/avatars/neeasade-16.png 1x, /avatars/neeasade-32.png 2x" class="avatar" alt="neeasade avatar" src="/avatars/neeasade-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/neeasade" class="u-author h-card user_is_author">neeasade</a>
+
+        <span title="2021-01-04 14:14:08 -0600">7 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fnotes.neeasade.net%2Fsystemd-user-services.html" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/sy8ulu/systemd_user_services">
+              5 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/sy8ulu/systemd_user_services" class="mobile_comments " style="display: none;">
+  <span>5</span>
+</a>
+</li>
+<li id="story_cpncuc" data-shortid="cpncuc"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">40</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://surma.dev/things/ditherpunk/" rel="ugc noreferrer">Ditherpunk: The article I wish I had about monochrome image dithering</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_art" title="Art" href="/t/art">art</a>
+          <a class="tag tag_graphics" title="Graphics programming" href="/t/graphics">graphics</a>
+      </span>
+        <a class="domain" href="/domain/surma.dev">surma.dev</a>
+
+
+
+    <div class="byline">
+        <a href="/u/bcongdon"><img srcset="/avatars/bcongdon-16.png 1x, /avatars/bcongdon-32.png 2x" class="avatar" alt="bcongdon avatar" src="/avatars/bcongdon-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/bcongdon" class="u-author h-card ">bcongdon</a>
+
+        <span title="2021-01-04 10:20:21 -0600">11 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fsurma.dev%2Fthings%2Fditherpunk%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/cpncuc/ditherpunk_article_i_wish_i_had_about">
+              3 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/cpncuc/ditherpunk_article_i_wish_i_had_about" class="mobile_comments " style="display: none;">
+  <span>3</span>
+</a>
+</li>
+<li id="story_ucohle" data-shortid="ucohle"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">17</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://eloydegen.com/blog/posts/arm-linux-distribtions/" rel="ugc noreferrer">ARM support in Linux distributions demystified</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_linux" title="Linux" href="/t/linux">linux</a>
+      </span>
+        <a class="domain" href="/domain/eloydegen.com">eloydegen.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/eloy"><img srcset="/avatars/eloy-16.png 1x, /avatars/eloy-32.png 2x" class="avatar" alt="eloy avatar" src="/avatars/eloy-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/eloy" class="u-author h-card user_is_author">eloy</a>
+
+        <span title="2021-01-04 06:58:50 -0600">14 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Feloydegen.com%2Fblog%2Fposts%2Farm-linux-distribtions%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/ucohle/arm_support_linux_distributions">
+              13 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/ucohle/arm_support_linux_distributions" class="mobile_comments " style="display: none;">
+  <span>13</span>
+</a>
+</li>
+<li id="story_loxv7y" data-shortid="loxv7y"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">17</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://gist.github.com/prologic/5f6afe9c1b98016ca278f4d507e65510" rel="ugc noreferrer">Learn Go in ~5mins</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_go" title="Golang programming" href="/t/go">go</a>
+          <a class="tag tag_programming" title="Use when every tag or no specific tag applies" href="/t/programming">programming</a>
+      </span>
+        <a class="domain" href="/domain/gist.github.com">gist.github.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/prologic"><img srcset="/avatars/prologic-16.png 1x, /avatars/prologic-32.png 2x" class="avatar" alt="prologic avatar" src="/avatars/prologic-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/prologic" class="u-author h-card new_user">prologic</a>
+
+        <span title="2021-01-04 06:28:19 -0600">15 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fgist.github.com%2Fprologic%2F5f6afe9c1b98016ca278f4d507e65510" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/loxv7y/learn_go_5mins">
+              16 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/loxv7y/learn_go_5mins" class="mobile_comments " style="display: none;">
+  <span>16</span>
+</a>
+</li>
+<li id="story_t9sz67" data-shortid="t9sz67"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">23</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://drewdevault.com/2021/01/04/A-culture-of-stability-and-reliability.html" rel="ugc noreferrer">Fostering a culture that values stability and reliability</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_practices" title="Development and team practices" href="/t/practices">practices</a>
+      </span>
+        <a class="domain" href="/domain/drewdevault.com">drewdevault.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/ignaloidas"><img srcset="/avatars/ignaloidas-16.png 1x, /avatars/ignaloidas-32.png 2x" class="avatar" alt="ignaloidas avatar" src="/avatars/ignaloidas-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/ignaloidas" class="u-author h-card ">ignaloidas</a>
+
+        <span title="2021-01-04 09:41:54 -0600">12 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fdrewdevault.com%2F2021%2F01%2F04%2FA-culture-of-stability-and-reliability.html" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/t9sz67/fostering_culture_values_stability">
+              4 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/t9sz67/fostering_culture_values_stability" class="mobile_comments " style="display: none;">
+  <span>4</span>
+</a>
+</li>
+<li id="story_9saj5u" data-shortid="9saj5u"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">15</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://seancoates.com/blogs/internet-optional-things" rel="ugc noreferrer">IoT: Internet-Optional Things</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_show tag_is_media" title="Show Lobsters / Projects" href="/t/show">show</a>
+          <a class="tag tag_hardware" title="Hardware" href="/t/hardware">hardware</a>
+      </span>
+        <a class="domain" href="/domain/seancoates.com">seancoates.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/scoates"><img srcset="/avatars/scoates-16.png 1x, /avatars/scoates-32.png 2x" class="avatar" alt="scoates avatar" src="/avatars/scoates-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/scoates" class="u-author h-card user_is_author">scoates</a>
+
+        <span title="2021-01-04 10:28:43 -0600">11 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fseancoates.com%2Fblogs%2Finternet-optional-things" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/9saj5u/iot_internet_optional_things">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/9saj5u/iot_internet_optional_things" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_4hj32p" data-shortid="4hj32p"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">16</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://christine.website/blog/hlang-in-30s-2020-01-04" rel="ugc noreferrer">hlang in 30 Seconds</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_satire" title="Satirical writing" href="/t/satire">satire</a>
+          <a class="tag tag_wasm" title="webassembly" href="/t/wasm">wasm</a>
+      </span>
+        <a class="domain" href="/domain/christine.website">christine.website</a>
+
+
+
+    <div class="byline">
+        <a href="/u/cadey"><img srcset="/avatars/cadey-16.png 1x, /avatars/cadey-32.png 2x" class="avatar" alt="cadey avatar" src="/avatars/cadey-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/cadey" class="u-author h-card user_is_author">cadey</a>
+
+        <span title="2021-01-04 07:44:59 -0600">13 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fchristine.website%2Fblog%2Fhlang-in-30s-2020-01-04" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/4hj32p/hlang_30_seconds">
+              7 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/4hj32p/hlang_30_seconds" class="mobile_comments " style="display: none;">
+  <span>7</span>
+</a>
+</li>
+<li id="story_xy39hu" data-shortid="xy39hu"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">8</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://www.youtube.com/watch?v=wjsI0lTSjIo" rel="ugc noreferrer">Weeks of Debugging Can Save You Hours of TLA+</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_video tag_is_media" title="Link to a video" href="/t/video">video</a>
+          <a class="tag tag_debugging" title="Debugging techniques" href="/t/debugging">debugging</a>
+          <a class="tag tag_formalmethods" title="Formal methods" href="/t/formalmethods">formalmethods</a>
+      </span>
+        <a class="domain" href="/domain/youtube.com">youtube.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/lemmster"><img srcset="/avatars/lemmster-16.png 1x, /avatars/lemmster-32.png 2x" class="avatar" alt="lemmster avatar" src="/avatars/lemmster-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/lemmster" class="u-author h-card user_is_author">lemmster</a>
+
+        <span title="2021-01-04 12:31:48 -0600">9 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwjsI0lTSjIo" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/xy39hu/weeks_debugging_can_save_you_hours_tla">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/xy39hu/weeks_debugging_can_save_you_hours_tla" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_cpmfyt" data-shortid="cpmfyt"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">21</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://kakoune-editor.github.io/community-articles/2021/01/01/first_two_hours_in_two_minutes.html" rel="ugc noreferrer">The first two hours of Kakoune in two minutes</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_unix" title="*nix" href="/t/unix">unix</a>
+      </span>
+        <a class="domain" href="/domain/kakoune-editor.github.io">kakoune-editor.github.io</a>
+
+
+
+    <div class="byline">
+        <a href="/u/lenormf"><img srcset="/avatars/lenormf-16.png 1x, /avatars/lenormf-32.png 2x" class="avatar" alt="lenormf avatar" src="/avatars/lenormf-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/lenormf" class="u-author h-card user_is_author">lenormf</a>
+
+        <span title="2021-01-03 23:24:46 -0600">22 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fkakoune-editor.github.io%2Fcommunity-articles%2F2021%2F01%2F01%2Ffirst_two_hours_in_two_minutes.html" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/cpmfyt/first_two_hours_kakoune_two_minutes">
+              7 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/cpmfyt/first_two_hours_kakoune_two_minutes" class="mobile_comments " style="display: none;">
+  <span>7</span>
+</a>
+</li>
+<li id="story_9ndyxt" data-shortid="9ndyxt"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">10</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://basehtml.xyz" rel="ugc noreferrer">Minimal base.html</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_web" title="Web development and news" href="/t/web">web</a>
+      </span>
+        <a class="domain" href="/domain/basehtml.xyz">basehtml.xyz</a>
+
+
+
+    <div class="byline">
+        <a href="/u/brntn"><img srcset="/avatars/brntn-16.png 1x, /avatars/brntn-32.png 2x" class="avatar" alt="brntn avatar" src="/avatars/brntn-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/brntn" class="u-author h-card user_is_author">brntn</a>
+
+        <span title="2021-01-04 03:17:30 -0600">18 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fbasehtml.xyz" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/9ndyxt/minimal_base_html">
+              18 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/9ndyxt/minimal_base_html" class="mobile_comments " style="display: none;">
+  <span>18</span>
+</a>
+</li>
+<li id="story_lqr8yr" data-shortid="lqr8yr"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">5</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://skuz.xyz/go-in-go.html" rel="ugc noreferrer">Go as a dynamic plugin language for Go</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_go" title="Golang programming" href="/t/go">go</a>
+      </span>
+        <a class="domain" href="/domain/skuz.xyz">skuz.xyz</a>
+
+
+
+    <div class="byline">
+        <a href="/u/skuzzymiglet"><img srcset="/avatars/skuzzymiglet-16.png 1x, /avatars/skuzzymiglet-32.png 2x" class="avatar" alt="skuzzymiglet avatar" src="/avatars/skuzzymiglet-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/skuzzymiglet" class="u-author h-card new_user">skuzzymiglet</a>
+
+        <span title="2021-01-04 13:46:26 -0600">7 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fskuz.xyz%2Fgo-in-go.html" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/lqr8yr/go_as_dynamic_plugin_language_for_go">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/lqr8yr/go_as_dynamic_plugin_language_for_go" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_lh77dy" data-shortid="lh77dy"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">1</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://ntietz.com/tech-blog/load-testing-is-hard-but-why/" rel="ugc noreferrer">Load testing is hard, and the tools are... not great. But why?</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_testing" title="Software testing" href="/t/testing">testing</a>
+      </span>
+        <a class="domain" href="/domain/ntietz.com">ntietz.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/ntietz"><img srcset="/avatars/ntietz-16.png 1x, /avatars/ntietz-32.png 2x" class="avatar" alt="ntietz avatar" src="/avatars/ntietz-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/ntietz" class="u-author h-card user_is_author">ntietz</a>
+
+        <span title="2021-01-04 20:18:32 -0600">1 hour ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fntietz.com%2Ftech-blog%2Fload-testing-is-hard-but-why%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/lh77dy/load_testing_is_hard_tools_are_not_great">
+              1 comment</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/lh77dy/load_testing_is_hard_tools_are_not_great" class="mobile_comments " style="display: none;">
+  <span>1</span>
+</a>
+</li>
+<li id="story_npa5mo" data-shortid="npa5mo"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">29</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://www.murilopereira.com/how-to-open-a-file-in-emacs/" rel="ugc noreferrer">How to open a file in Emacs</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_emacs" title="Emacs editor" href="/t/emacs">emacs</a>
+          <a class="tag tag_performance" title="Performance and optimization" href="/t/performance">performance</a>
+      </span>
+        <a class="domain" href="/domain/murilopereira.com">murilopereira.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/spudlyo"><img srcset="/avatars/spudlyo-16.png 1x, /avatars/spudlyo-32.png 2x" class="avatar" alt="spudlyo avatar" src="/avatars/spudlyo-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/spudlyo" class="u-author h-card ">spudlyo</a>
+
+        <span title="2021-01-03 22:47:06 -0600">22 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fwww.murilopereira.com%2Fhow-to-open-a-file-in-emacs%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/npa5mo/how_open_file_emacs">
+              9 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/npa5mo/how_open_file_emacs" class="mobile_comments " style="display: none;">
+  <span>9</span>
+</a>
+</li>
+<li id="story_hxhqjy" data-shortid="hxhqjy"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">11</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="/s/hxhqjy/what_are_you_doing_this_week" rel="ugc noreferrer">What are you doing this week?</a>
+    </span>
+      <a class="description_present" title="What are you doing this week? Feel free to share!
+
+Keep in mind it’s OK to do nothing at all, too." href="/s/hxhqjy/what_are_you_doing_this_week">&#x2636;</a>
+      <span class="tags">
+          <a class="tag tag_ask tag_is_media" title="Ask Lobsters" href="/t/ask">ask</a>
+          <a class="tag tag_programming" title="Use when every tag or no specific tag applies" href="/t/programming">programming</a>
+      </span>
+
+
+
+    <div class="byline">
+        <a href="/u/caius"><img srcset="/avatars/caius-16.png 1x, /avatars/caius-32.png 2x" class="avatar" alt="caius avatar" src="/avatars/caius-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/caius" class="u-author h-card user_is_author">caius</a>
+
+        <span title="2021-01-04 05:04:07 -0600">16 hours ago</span>
+
+          <span class="comments_label">
+            |
+            <a href="/s/hxhqjy/what_are_you_doing_this_week">
+              21 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/hxhqjy/what_are_you_doing_this_week" class="mobile_comments " style="display: none;">
+  <span>21</span>
+</a>
+</li>
+<li id="story_3l1suj" data-shortid="3l1suj"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">12</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://www.bell-labs.com/usr/dmr/www/odd.html" rel="ugc noreferrer">Odd Comments and Strange Doings in Unix</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_historical" title="History and retrospectives (not for things that happen to be old)" href="/t/historical">historical</a>
+          <a class="tag tag_unix" title="*nix" href="/t/unix">unix</a>
+      </span>
+        <a class="domain" href="/domain/bell-labs.com">bell-labs.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/lorddimwit"><img srcset="/avatars/lorddimwit-16.png 1x, /avatars/lorddimwit-32.png 2x" class="avatar" alt="lorddimwit avatar" src="/avatars/lorddimwit-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/lorddimwit" class="u-author h-card ">lorddimwit</a>
+
+        <span title="2021-01-04 09:08:04 -0600">12 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fwww.bell-labs.com%2Fusr%2Fdmr%2Fwww%2Fodd.html" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/3l1suj/odd_comments_strange_doings_unix">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/3l1suj/odd_comments_strange_doings_unix" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_pnhvbr" data-shortid="pnhvbr"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">4</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://www.cs.kent.ac.uk/people/staff/srk21/blog/2021/01/04#elf-chain-loading" rel="ugc noreferrer">Chain loading, not preloading: the dynamic linker as a virtualization vector</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_unix" title="*nix" href="/t/unix">unix</a>
+      </span>
+        <a class="domain" href="/domain/cs.kent.ac.uk">cs.kent.ac.uk</a>
+
+
+
+    <div class="byline">
+        <a href="/u/GeoffWozniak"><img srcset="/avatars/GeoffWozniak-16.png 1x, /avatars/GeoffWozniak-32.png 2x" class="avatar" alt="GeoffWozniak avatar" src="/avatars/GeoffWozniak-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/GeoffWozniak" class="u-author h-card ">GeoffWozniak</a>
+
+        <span title="2021-01-04 17:30:45 -0600">4 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fwww.cs.kent.ac.uk%2Fpeople%2Fstaff%2Fsrk21%2Fblog%2F2021%2F01%2F04%23elf-chain-loading" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/pnhvbr/chain_loading_not_preloading_dynamic">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/pnhvbr/chain_loading_not_preloading_dynamic" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_giqzff" data-shortid="giqzff"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">2</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://www.youtube.com/watch?v=ZBsv-jRiIT8" rel="ugc noreferrer">Build mini MSDOS gaming PC</a>
+    </span>
+      <a class="description_present" title="Using PC/104 components to build a mini 486 MSDOS gaming PC, including a custom built SoundBlaster compatible sound card." href="/s/giqzff/build_mini_msdos_gaming_pc">&#x2636;</a>
+      <span class="tags">
+          <a class="tag tag_video tag_is_media" title="Link to a video" href="/t/video">video</a>
+          <a class="tag tag_hardware" title="Hardware" href="/t/hardware">hardware</a>
+      </span>
+        <a class="domain" href="/domain/youtube.com">youtube.com</a>
+
+
+
+    <div class="byline">
+        <a href="/u/kodfodrasz"><img srcset="/avatars/kodfodrasz-16.png 1x, /avatars/kodfodrasz-32.png 2x" class="avatar" alt="kodfodrasz avatar" src="/avatars/kodfodrasz-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/kodfodrasz" class="u-author h-card ">kodfodrasz</a>
+
+        <span title="2021-01-04 16:22:07 -0600">5 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZBsv-jRiIT8" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/giqzff/build_mini_msdos_gaming_pc">
+              2 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/giqzff/build_mini_msdos_gaming_pc" class="mobile_comments " style="display: none;">
+  <span>2</span>
+</a>
+</li>
+<li id="story_p5mc01" data-shortid="p5mc01"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">40</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://christine.website/blog/backslash-kubernetes-2021-01-03" rel="ugc noreferrer">&lt;/kubernetes&gt;</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_devops" title="DevOps" href="/t/devops">devops</a>
+      </span>
+        <a class="domain" href="/domain/christine.website">christine.website</a>
+
+
+
+    <div class="byline">
+        <a href="/u/cadey"><img srcset="/avatars/cadey-16.png 1x, /avatars/cadey-32.png 2x" class="avatar" alt="cadey avatar" src="/avatars/cadey-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/cadey" class="u-author h-card user_is_author">cadey</a>
+
+        <span title="2021-01-03 11:07:16 -0600">34 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fchristine.website%2Fblog%2Fbackslash-kubernetes-2021-01-03" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/p5mc01/kubernetes">
+              15 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/p5mc01/kubernetes" class="mobile_comments " style="display: none;">
+  <span>15</span>
+</a>
+</li>
+<li id="story_jwzrtn" data-shortid="jwzrtn"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">7</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://tek.brick.do/c324939a-8ca2-4156-8e93-96e4a2c6b05a" rel="ugc noreferrer">A basic intuition for copyright law and GPL</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_law" title="Law, patents, and licensing" href="/t/law">law</a>
+      </span>
+        <a class="domain" href="/domain/tek.brick.do">tek.brick.do</a>
+
+
+
+    <div class="byline">
+        <a href="/u/stchris"><img srcset="/avatars/stchris-16.png 1x, /avatars/stchris-32.png 2x" class="avatar" alt="stchris avatar" src="/avatars/stchris-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/stchris" class="u-author h-card ">stchris</a>
+
+        <span title="2021-01-04 03:36:06 -0600">18 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Ftek.brick.do%2Fc324939a-8ca2-4156-8e93-96e4a2c6b05a" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/jwzrtn/basic_intuition_for_copyright_law_gpl">
+              15 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/jwzrtn/basic_intuition_for_copyright_law_gpl" class="mobile_comments " style="display: none;">
+  <span>15</span>
+</a>
+</li>
+<li id="story_jqc3zv" data-shortid="jqc3zv"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">3</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://abhinavsarkar.net/posts/type-level-haskell-aoc7/" rel="ugc noreferrer">Solving Advent of Code “Handy Haversacks” in Type-level Haskell</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_haskell" title="Haskell programming" href="/t/haskell">haskell</a>
+          <a class="tag tag_plt" title="Programming language theory, types, design" href="/t/plt">plt</a>
+      </span>
+        <a class="domain" href="/domain/abhinavsarkar.net">abhinavsarkar.net</a>
+
+
+
+    <div class="byline">
+        <a href="/u/abhin4v"><img srcset="/avatars/abhin4v-16.png 1x, /avatars/abhin4v-32.png 2x" class="avatar" alt="abhin4v avatar" src="/avatars/abhin4v-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/abhin4v" class="u-author h-card user_is_author">abhin4v</a>
+
+        <span title="2021-01-04 10:31:52 -0600">11 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fabhinavsarkar.net%2Fposts%2Ftype-level-haskell-aoc7%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/jqc3zv/solving_advent_code_handy_haversacks">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/jqc3zv/solving_advent_code_handy_haversacks" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_ldyida" data-shortid="ldyida"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">5</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://zakaria.org/posts/2021-01-04-xenodm.html" rel="ugc noreferrer">My xenodm setup</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_openbsd" title="OpenBSD" href="/t/openbsd">openbsd</a>
+      </span>
+        <a class="domain" href="/domain/zakaria.org">zakaria.org</a>
+
+
+
+    <div class="byline">
+        <a href="/u/zk"><img srcset="/avatars/zk-16.png 1x, /avatars/zk-32.png 2x" class="avatar" alt="zk avatar" src="/avatars/zk-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/zk" class="u-author h-card user_is_author">zk</a>
+
+        <span title="2021-01-04 06:22:21 -0600">15 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fzakaria.org%2Fposts%2F2021-01-04-xenodm.html" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/ldyida/my_xenodm_setup">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/ldyida/my_xenodm_setup" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+<li id="story_vyy0pn" data-shortid="vyy0pn"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">13</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="http://fuzix.org/" rel="ugc noreferrer">Fuzix: A Unix-ish operating system for small machines by Alan Cox</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_osdev" title="Operating system design and development when no specific OS tag exists" href="/t/osdev">osdev</a>
+      </span>
+        <a class="domain" href="/domain/fuzix.org">fuzix.org</a>
+
+
+
+    <div class="byline">
+        <a href="/u/ethoh"><img srcset="/avatars/ethoh-16.png 1x, /avatars/ethoh-32.png 2x" class="avatar" alt="ethoh avatar" src="/avatars/ethoh-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/ethoh" class="u-author h-card ">ethoh</a>
+
+        <span title="2021-01-04 00:25:14 -0600">21 hours ago</span>
+
+          |
+          <a href="https://archive.md/http%3A%2F%2Ffuzix.org%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/vyy0pn/fuzix_unix_ish_operating_system_for_small">
+              2 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/vyy0pn/fuzix_unix_ish_operating_system_for_small" class="mobile_comments " style="display: none;">
+  <span>2</span>
+</a>
+</li>
+<li id="story_ltqad3" data-shortid="ltqad3"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">36</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://simplecss.org/" rel="ugc noreferrer">Simple.css - A classless CSS template</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_css" title="Cascading Style Sheets" href="/t/css">css</a>
+          <a class="tag tag_web" title="Web development and news" href="/t/web">web</a>
+      </span>
+        <a class="domain" href="/domain/simplecss.org">simplecss.org</a>
+
+
+
+    <div class="byline">
+        <a href="/u/kev"><img srcset="/avatars/kev-16.png 1x, /avatars/kev-32.png 2x" class="avatar" alt="kev avatar" src="/avatars/kev-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/kev" class="u-author h-card ">kev</a>
+
+        <span title="2021-01-03 10:26:43 -0600">35 hours ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fsimplecss.org%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/ltqad3/simple_css_classless_css_template">
+              21 comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/ltqad3/simple_css_classless_css_template" class="mobile_comments " style="display: none;">
+  <span>21</span>
+</a>
+</li>
+<li id="story_2ofdvk" data-shortid="2ofdvk"
+class="story 
+
+
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+      <a class="upvoter" href="/login"></a>
+    <div class="score">1</div>
+  </div>
+  <div class="details">
+    <span class="link h-cite u-repost-of">
+        <a class="u-url" href="https://pwy.io/en/posts/learning-to-fly-pt1/" rel="ugc noreferrer">Learning to Fly: Let&#39;s create a simulation in Rust! (pt 1)</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_ai" title="Artificial Intelligence, Machine Learning" href="/t/ai">ai</a>
+          <a class="tag tag_rust" title="Rust programming" href="/t/rust">rust</a>
+      </span>
+        <a class="domain" href="/domain/pwy.io">pwy.io</a>
+
+
+
+    <div class="byline">
+        <a href="/u/calvin"><img srcset="/avatars/calvin-16.png 1x, /avatars/calvin-32.png 2x" class="avatar" alt="calvin avatar" src="/avatars/calvin-16.png" width="16" height="16" /></a>
+          via
+        <a href="/u/calvin" class="u-author h-card ">calvin</a>
+
+        <span title="2021-01-04 20:18:13 -0600">1 hour ago</span>
+
+          |
+          <a href="https://archive.md/https%3A%2F%2Fpwy.io%2Fen%2Fposts%2Flearning-to-fly-pt1%2F" rel="ugc" target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/2ofdvk/learning_fly_let_s_create_simulation_rust">
+              no comments</a>
+          </span>
+
+    </div>
+  </div>
+</div>
+<a href="/s/2ofdvk/learning_fly_let_s_create_simulation_rust" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+</ol>
+
+<div class="morelink">
+
+    <a href="/page/2">Page 2 &gt;&gt;</a>
+</div>
+
+
+      <div id="footer">
+          <a href="/moderations">Moderation Log</a>
+  <a href="/hats">Hats</a>
+  <a href="/tags">Tags</a>
+
+<a href="https://github.com/lobsters/lobsters/wiki">Wiki</a>
+<a href="/privacy">Privacy</a>
+<a href="/about">About</a>
+
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</body>
+</html>

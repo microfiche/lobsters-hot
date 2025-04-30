@@ -1,0 +1,1435 @@
+<!doctype html>
+<html lang="en" >
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <link rel="icon" sizes="144x144" type="image/png" href="/touch-icon-144.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/touch-icon.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/touch-icon-144.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/touch-icon-144.png">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Lobsters">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="always">
+  <meta name="theme-color" content="#AC130D">
+  <meta name="story-flags" content="{&quot;O&quot;:&quot;Off-topic&quot;,&quot;A&quot;:&quot;Already Posted&quot;,&quot;B&quot;:&quot;Broken Link&quot;,&quot;S&quot;:&quot;Spam&quot;,&quot;&quot;:&quot;Cancel&quot;}">
+  <meta name="comment-flags" content="{&quot;O&quot;:&quot;Off-topic&quot;,&quot;M&quot;:&quot;Me-too&quot;,&quot;T&quot;:&quot;Troll&quot;,&quot;U&quot;:&quot;Unkind&quot;,&quot;S&quot;:&quot;Spam&quot;,&quot;&quot;:&quot;Cancel&quot;}">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <title>Lobsters</title>
+
+  <link rel="stylesheet" href="/assets/application-5a5c897f.css">
+  <link rel="stylesheet" href="/assets/system-system-bf6d5bb3.css">
+  <link rel="stylesheet" href="/assets/tom-select-9d6bcb6b.css" data-turbo-track="reload">
+  <link rel="stylesheet" href="/assets/TomSelect_remove_button-4d5c34b9.css" data-turbo-track="reload">
+
+
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="rLafOykA8wso4IDElVEyJdKOJuzgkl-J9YDINuUM0Ae5ZRQJFde-L2sB8g9aCzZIK4sixUiK88orpz8tDsLdKQ">
+    <link rel="alternate" type="application/rss+xml"
+      title="RSS 2.0" href="/rss">
+    <link rel="alternate" type="application/rss+xml"
+      title="Comments - RSS 2.0"
+      href="/comments.rss">
+  <meta name="robots" content="noai, noimageai">
+</head>
+<body data-username=''>
+  <header id="nav">
+    <a id="logo" style="background-color: #700000;" href="/" title="Lobsters (Current traffic: 18%)"></a>
+    
+
+    <div class="navholder">
+      <nav class="links">
+        <a href="/active">Active</a>
+        <a href="/recent">Recent</a>
+        <a href="/comments">Comments</a>
+
+
+        <a href="/search">Search</a>
+
+
+          <a class="corner" href="/login">Login</a>
+      </nav>
+    </div>
+
+    <nav class="corner">
+        <a class="corner" href="/login">Login</a>
+    </nav>
+  </header>
+
+
+  <div id="inside">
+
+
+    
+
+<ol class="stories list ">
+
+
+<li id="story_dycg15" data-shortid="dycg15"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">56</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://jepsen.io/analyses/amazon-rds-for-postgresql-17.4" rel="ugc noreferrer">Jepsen: Amazon RDS for PostgreSQL 17.4</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_databases" title="Databases (SQL, NoSQL)" href="/t/databases">databases</a>
+          <a class="tag tag_distributed" title="Distributed systems" href="/t/distributed">distributed</a>
+          <a class="tag tag_testing" title="Software testing" href="/t/testing">testing</a>
+      </span>
+        <a class="domain" href="/domains/jepsen.io">jepsen.io</a>
+
+
+    <div class="byline">
+      <a href="/~aphyr"><img srcset="/avatars/aphyr-16.png 1x, /avatars/aphyr-32.png 2x" class="avatar" alt="aphyr avatar" loading="lazy" decoding="async" src="/avatars/aphyr-16.png" width="16" height="16"></a>
+          <span> authored by </span>
+        <a class="u-author h-card user_is_author" href="/~aphyr">aphyr</a>
+
+        <span title="2025-04-29 09:30:26 -0500">13 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_dycg15" class="archive_button" type="checkbox">
+            <label for="archive_dycg15">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fjepsen.io%2Fanalyses%2Famazon-rds-for-postgresql-17.4">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fjepsen.io%2Fanalyses%2Famazon-rds-for-postgresql-17.4">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fjepsen.io%2Fanalyses%2Famazon-rds-for-postgresql-17.4">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/dycg15/jepsen_amazon_rds_for_postgresql_17_4">
+              12 comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/dycg15/jepsen_amazon_rds_for_postgresql_17_4" class="mobile_comments " style="display: none;">
+  <span>12</span>
+</a>
+</li>
+
+
+
+<li id="story_bxixuu" data-shortid="bxixuu"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">35</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://andymasley.substack.com/p/a-cheat-sheet-for-conversations-about" rel="ugc noreferrer">A cheat sheet for why using ChatGPT is not bad for the environment</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_ai" title="Artificial Intelligence, Machine Learning" href="/t/ai">ai</a>
+      </span>
+        <a class="domain" href="/domains/andymasley.substack.com">andymasley.substack.com</a>
+
+
+    <div class="byline">
+      <a href="/~simonw"><img srcset="/avatars/simonw-16.png 1x, /avatars/simonw-32.png 2x" class="avatar" alt="simonw avatar" loading="lazy" decoding="async" src="/avatars/simonw-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~simonw">simonw</a>
+
+        <span title="2025-04-29 09:53:14 -0500">12 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_bxixuu" class="archive_button" type="checkbox">
+            <label for="archive_bxixuu">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fandymasley.substack.com%2Fp%2Fa-cheat-sheet-for-conversations-about">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fandymasley.substack.com%2Fp%2Fa-cheat-sheet-for-conversations-about">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fandymasley.substack.com%2Fp%2Fa-cheat-sheet-for-conversations-about">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/bxixuu/cheat_sheet_for_why_using_chatgpt_is_not">
+              42 comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/bxixuu/cheat_sheet_for_why_using_chatgpt_is_not" class="mobile_comments " style="display: none;">
+  <span>42</span>
+</a>
+</li>
+
+
+
+<li id="story_afvexw" data-shortid="afvexw"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">6</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://matklad.github.io/2025/04/22/horizontal-scroll.html" rel="ugc noreferrer">Against Horizontal Scroll</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_design" title="Visual design" href="/t/design">design</a>
+          <a class="tag tag_web" title="Web development and news" href="/t/web">web</a>
+      </span>
+        <a class="domain" href="/domains/matklad.github.io">matklad.github.io</a>
+
+
+    <div class="byline">
+      <a href="/~matklad"><img srcset="/avatars/matklad-16.png 1x, /avatars/matklad-32.png 2x" class="avatar" alt="matklad avatar" loading="lazy" decoding="async" src="/avatars/matklad-16.png" width="16" height="16"></a>
+          <span> authored by </span>
+        <a class="u-author h-card user_is_author" href="/~matklad">matklad</a>
+
+        <span title="2025-04-29 19:36:26 -0500">3 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_afvexw" class="archive_button" type="checkbox">
+            <label for="archive_afvexw">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fmatklad.github.io%2F2025%2F04%2F22%2Fhorizontal-scroll.html">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fmatklad.github.io%2F2025%2F04%2F22%2Fhorizontal-scroll.html">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fmatklad.github.io%2F2025%2F04%2F22%2Fhorizontal-scroll.html">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/afvexw/against_horizontal_scroll">
+              4 comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/afvexw/against_horizontal_scroll" class="mobile_comments " style="display: none;">
+  <span>4</span>
+</a>
+</li>
+
+
+
+<li id="story_nyc9ob" data-shortid="nyc9ob"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">59</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://deadmoney.gg/news/articles/migrating-away-from-rust" rel="ugc noreferrer">Migrating away from Rust</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_dotnet" title="C#, F#, .NET programming" href="/t/dotnet">dotnet</a>
+          <a class="tag tag_games" title="Game design and study" href="/t/games">games</a>
+          <a class="tag tag_rust" title="Rust programming" href="/t/rust">rust</a>
+      </span>
+        <a class="domain" href="/domains/deadmoney.gg">deadmoney.gg</a>
+
+
+    <div class="byline">
+      <a href="/~spookylukey"><img srcset="/avatars/spookylukey-16.png 1x, /avatars/spookylukey-32.png 2x" class="avatar" alt="spookylukey avatar" loading="lazy" decoding="async" src="/avatars/spookylukey-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~spookylukey">spookylukey</a>
+
+        <span title="2025-04-29 01:35:03 -0500">21 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_nyc9ob" class="archive_button" type="checkbox">
+            <label for="archive_nyc9ob">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fdeadmoney.gg%2Fnews%2Farticles%2Fmigrating-away-from-rust">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fdeadmoney.gg%2Fnews%2Farticles%2Fmigrating-away-from-rust">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fdeadmoney.gg%2Fnews%2Farticles%2Fmigrating-away-from-rust">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/nyc9ob/migrating_away_from_rust">
+              59 comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/nyc9ob/migrating_away_from_rust" class="mobile_comments " style="display: none;">
+  <span>59</span>
+</a>
+</li>
+
+
+
+<li id="story_lffktu" data-shortid="lffktu"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">9</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://idiallo.com/blog/zipbomb-protection" rel="ugc noreferrer">I use Zip Bombs to Protect my Server</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_devops" title="DevOps" href="/t/devops">devops</a>
+      </span>
+        <a class="domain" href="/domains/idiallo.com">idiallo.com</a>
+
+
+    <div class="byline">
+      <a href="/~runxiyu"><img srcset="/avatars/runxiyu-16.png 1x, /avatars/runxiyu-32.png 2x" class="avatar" alt="runxiyu avatar" loading="lazy" decoding="async" src="/avatars/runxiyu-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~runxiyu">runxiyu</a>
+
+        <span title="2025-04-29 19:12:50 -0500">3 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_lffktu" class="archive_button" type="checkbox">
+            <label for="archive_lffktu">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fidiallo.com%2Fblog%2Fzipbomb-protection">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fidiallo.com%2Fblog%2Fzipbomb-protection">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fidiallo.com%2Fblog%2Fzipbomb-protection">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/lffktu/i_use_zip_bombs_protect_my_server">
+              2 comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/lffktu/i_use_zip_bombs_protect_my_server" class="mobile_comments " style="display: none;">
+  <span>2</span>
+</a>
+</li>
+
+
+
+<li id="story_9kime6" data-shortid="9kime6"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">11</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://www.hytradboi.com/2025/03580e19-4646-4fba-91c3-17eaba6935b0-throwing-it-all-away---how-extreme-rewriting-changed-the-way-i-build-databases" rel="ugc noreferrer">Throwing it all away - how extreme rewriting changed the way I build databases</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_slides tag_is_media" title="Slide deck" href="/t/slides">slides</a>
+          <a class="tag tag_video tag_is_media" title="Link to a video" href="/t/video">video</a>
+          <a class="tag tag_databases" title="Databases (SQL, NoSQL)" href="/t/databases">databases</a>
+          <a class="tag tag_philosophy" title="Philosophy" href="/t/philosophy">philosophy</a>
+          <a class="tag tag_practices" title="Development and team practices" href="/t/practices">practices</a>
+      </span>
+        <a class="domain" href="/domains/hytradboi.com">hytradboi.com</a>
+
+
+    <div class="byline">
+      <a href="/~skoodge"><img srcset="/avatars/skoodge-16.png 1x, /avatars/skoodge-32.png 2x" class="avatar" alt="skoodge avatar" loading="lazy" decoding="async" src="/avatars/skoodge-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~skoodge">skoodge</a>
+
+        <span title="2025-04-29 16:42:03 -0500">5 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_9kime6" class="archive_button" type="checkbox">
+            <label for="archive_9kime6">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fwww.hytradboi.com%2F2025%2F03580e19-4646-4fba-91c3-17eaba6935b0-throwing-it-all-away---how-extreme-rewriting-changed-the-way-i-build-databases">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fwww.hytradboi.com%2F2025%2F03580e19-4646-4fba-91c3-17eaba6935b0-throwing-it-all-away---how-extreme-rewriting-changed-the-way-i-build-databases">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fwww.hytradboi.com%2F2025%2F03580e19-4646-4fba-91c3-17eaba6935b0-throwing-it-all-away---how-extreme-rewriting-changed-the-way-i-build-databases">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/9kime6/throwing_it_all_away_how_extreme">
+              no comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/9kime6/throwing_it_all_away_how_extreme" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+
+
+<li id="story_ctopbt" data-shortid="ctopbt"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">15</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://blog.tylerglaiel.com/p/programming-languages-should-have" rel="ugc noreferrer">Programming languages should have a tree traversal primitive</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_c++" title="C++ programming" href="/t/c++">c++</a>
+          <a class="tag tag_programming" title="Use when every tag or no specific tag applies" href="/t/programming">programming</a>
+      </span>
+        <a class="domain" href="/domains/blog.tylerglaiel.com">blog.tylerglaiel.com</a>
+
+
+    <div class="byline">
+      <a href="/~azhenley"><img srcset="/avatars/azhenley-16.png 1x, /avatars/azhenley-32.png 2x" class="avatar" alt="azhenley avatar" loading="lazy" decoding="async" src="/avatars/azhenley-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~azhenley">azhenley</a>
+
+        <span title="2025-04-29 07:23:57 -0500">15 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_ctopbt" class="archive_button" type="checkbox">
+            <label for="archive_ctopbt">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fblog.tylerglaiel.com%2Fp%2Fprogramming-languages-should-have">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fblog.tylerglaiel.com%2Fp%2Fprogramming-languages-should-have">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fblog.tylerglaiel.com%2Fp%2Fprogramming-languages-should-have">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/ctopbt/programming_languages_should_have_tree">
+              21 comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/ctopbt/programming_languages_should_have_tree" class="mobile_comments " style="display: none;">
+  <span>21</span>
+</a>
+</li>
+
+
+
+<li id="story_zoxm37" data-shortid="zoxm37"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">31</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://ochagavia.nl/blog/what-the-heck-is-aead-again/" rel="ugc noreferrer">What the heck is AEAD again?</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_cryptography" title="Cryptography" href="/t/cryptography">cryptography</a>
+          <a class="tag tag_programming" title="Use when every tag or no specific tag applies" href="/t/programming">programming</a>
+      </span>
+        <a class="domain" href="/domains/ochagavia.nl">ochagavia.nl</a>
+
+
+    <div class="byline">
+      <a href="/~wofo"><img srcset="/avatars/wofo-16.png 1x, /avatars/wofo-32.png 2x" class="avatar" alt="wofo avatar" loading="lazy" decoding="async" src="/avatars/wofo-16.png" width="16" height="16"></a>
+          <span> authored by </span>
+        <a class="u-author h-card user_is_author" href="/~wofo">wofo</a>
+
+        <span title="2025-04-28 20:49:43 -0500">25 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_zoxm37" class="archive_button" type="checkbox">
+            <label for="archive_zoxm37">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fochagavia.nl%2Fblog%2Fwhat-the-heck-is-aead-again%2F">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fochagavia.nl%2Fblog%2Fwhat-the-heck-is-aead-again%2F">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fochagavia.nl%2Fblog%2Fwhat-the-heck-is-aead-again%2F">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/zoxm37/what_heck_is_aead_again">
+              6 comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/zoxm37/what_heck_is_aead_again" class="mobile_comments " style="display: none;">
+  <span>6</span>
+</a>
+</li>
+
+
+
+<li id="story_e4tygw" data-shortid="e4tygw"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">22</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://purplesyringa.moe/blog/why-performance-optimization-is-hard-work/" rel="ugc noreferrer">Why performance optimization is hard work</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_performance" title="Performance and optimization" href="/t/performance">performance</a>
+      </span>
+        <a class="domain" href="/domains/purplesyringa.moe">purplesyringa.moe</a>
+
+
+    <div class="byline">
+      <a href="/~EvanHahn"><img srcset="/avatars/EvanHahn-16.png 1x, /avatars/EvanHahn-32.png 2x" class="avatar" alt="EvanHahn avatar" loading="lazy" decoding="async" src="/avatars/EvanHahn-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~EvanHahn">EvanHahn</a>
+
+        <span title="2025-04-29 07:28:36 -0500">15 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_e4tygw" class="archive_button" type="checkbox">
+            <label for="archive_e4tygw">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fpurplesyringa.moe%2Fblog%2Fwhy-performance-optimization-is-hard-work%2F">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fpurplesyringa.moe%2Fblog%2Fwhy-performance-optimization-is-hard-work%2F">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fpurplesyringa.moe%2Fblog%2Fwhy-performance-optimization-is-hard-work%2F">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/e4tygw/why_performance_optimization_is_hard">
+              no comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/e4tygw/why_performance_optimization_is_hard" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+
+
+<li id="story_6necys" data-shortid="6necys"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">6</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://github.com/kai-qu/notation" rel="ugc noreferrer">Quotes on notation design &amp; how it affects thought</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_practices" title="Development and team practices" href="/t/practices">practices</a>
+      </span>
+        <a class="domain" href="/origins/github.com%2Fkai-qu">github.com/kai-qu</a>
+
+
+    <div class="byline">
+      <a href="/~veqq"><img srcset="/avatars/veqq-16.png 1x, /avatars/veqq-32.png 2x" class="avatar" alt="veqq avatar" loading="lazy" decoding="async" src="/avatars/veqq-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~veqq">veqq</a>
+
+        <span title="2025-04-29 18:01:59 -0500">4 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_6necys" class="archive_button" type="checkbox">
+            <label for="archive_6necys">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fgithub.com%2Fkai-qu%2Fnotation">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fgithub.com%2Fkai-qu%2Fnotation">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fgithub.com%2Fkai-qu%2Fnotation">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/6necys/quotes_on_notation_design_how_it_affects">
+              no comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/6necys/quotes_on_notation_design_how_it_affects" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+
+
+<li id="story_pd3dcc" data-shortid="pd3dcc"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">4</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://git.gammaspectra.live/git/go-away/releases/tag/v0.6.0" rel="ugc noreferrer">go-away release v0.6.0</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_devops" title="DevOps" href="/t/devops">devops</a>
+          <a class="tag tag_release" title="Software releases and announcements" href="/t/release">release</a>
+      </span>
+        <a class="domain" href="/domains/git.gammaspectra.live">git.gammaspectra.live</a>
+
+
+    <div class="byline">
+      <a href="/~runxiyu"><img srcset="/avatars/runxiyu-16.png 1x, /avatars/runxiyu-32.png 2x" class="avatar" alt="runxiyu avatar" loading="lazy" decoding="async" src="/avatars/runxiyu-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~runxiyu">runxiyu</a>
+
+        <span title="2025-04-29 19:51:19 -0500">2 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_pd3dcc" class="archive_button" type="checkbox">
+            <label for="archive_pd3dcc">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fgit.gammaspectra.live%2Fgit%2Fgo-away%2Freleases%2Ftag%2Fv0.6.0">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fgit.gammaspectra.live%2Fgit%2Fgo-away%2Freleases%2Ftag%2Fv0.6.0">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fgit.gammaspectra.live%2Fgit%2Fgo-away%2Freleases%2Ftag%2Fv0.6.0">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/pd3dcc/go_away_release_v0_6_0">
+              no comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/pd3dcc/go_away_release_v0_6_0" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+
+
+<li id="story_j6tfv0" data-shortid="j6tfv0"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">1</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://gist.github.com/wa008/4da70e1970b590497bf057e4358a6248" rel="ugc noreferrer">[vimrc] Bracket and quote matching and automatic shifting</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_vim" title="Vim editor" href="/t/vim">vim</a>
+      </span>
+        <a class="domain" href="/domains/gist.github.com">gist.github.com</a>
+
+
+    <div class="byline">
+      <a href="/~informal"><img srcset="/avatars/informal-16.png 1x, /avatars/informal-32.png 2x" class="avatar" alt="informal avatar" loading="lazy" decoding="async" src="/avatars/informal-16.png" width="16" height="16"></a>
+          <span> authored by </span>
+        <a class="u-author h-card user_is_author" href="/~informal">informal</a>
+
+        <span title="2025-04-29 22:32:34 -0500">6 minutes ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_j6tfv0" class="archive_button" type="checkbox">
+            <label for="archive_j6tfv0">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fgist.github.com%2Fwa008%2F4da70e1970b590497bf057e4358a6248">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fgist.github.com%2Fwa008%2F4da70e1970b590497bf057e4358a6248">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fgist.github.com%2Fwa008%2F4da70e1970b590497bf057e4358a6248">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/j6tfv0/vimrc_bracket_quote_matching_automatic">
+              1 comment</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/j6tfv0/vimrc_bracket_quote_matching_automatic" class="mobile_comments " style="display: none;">
+  <span>1</span>
+</a>
+</li>
+
+
+
+<li id="story_d3neqf" data-shortid="d3neqf"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">13</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://blog.yoshuawuyts.com/syntactic-musings-on-match-expressions/" rel="ugc noreferrer">Syntactic musings on match expressions</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_plt" title="Programming language theory, types, design" href="/t/plt">plt</a>
+          <a class="tag tag_rust" title="Rust programming" href="/t/rust">rust</a>
+      </span>
+        <a class="domain" href="/domains/blog.yoshuawuyts.com">blog.yoshuawuyts.com</a>
+
+
+    <div class="byline">
+      <a href="/~ChrisDenton"><img srcset="/avatars/ChrisDenton-16.png 1x, /avatars/ChrisDenton-32.png 2x" class="avatar" alt="ChrisDenton avatar" loading="lazy" decoding="async" src="/avatars/ChrisDenton-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~ChrisDenton">ChrisDenton</a>
+
+        <span title="2025-04-29 06:44:50 -0500">15 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_d3neqf" class="archive_button" type="checkbox">
+            <label for="archive_d3neqf">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fblog.yoshuawuyts.com%2Fsyntactic-musings-on-match-expressions%2F">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fblog.yoshuawuyts.com%2Fsyntactic-musings-on-match-expressions%2F">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fblog.yoshuawuyts.com%2Fsyntactic-musings-on-match-expressions%2F">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/d3neqf/syntactic_musings_on_match_expressions">
+              3 comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/d3neqf/syntactic_musings_on_match_expressions" class="mobile_comments " style="display: none;">
+  <span>3</span>
+</a>
+</li>
+
+
+
+<li id="story_7nniv9" data-shortid="7nniv9"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">4</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://github.com/dtonhofer/prolog_notes" rel="ugc noreferrer">Prolog Notes</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_ai" title="Artificial Intelligence, Machine Learning" href="/t/ai">ai</a>
+      </span>
+        <a class="domain" href="/origins/github.com%2Fdtonhofer">github.com/dtonhofer</a>
+
+
+    <div class="byline">
+      <a href="/~veqq"><img srcset="/avatars/veqq-16.png 1x, /avatars/veqq-32.png 2x" class="avatar" alt="veqq avatar" loading="lazy" decoding="async" src="/avatars/veqq-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~veqq">veqq</a>
+
+        <span title="2025-04-29 17:59:25 -0500">4 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_7nniv9" class="archive_button" type="checkbox">
+            <label for="archive_7nniv9">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fgithub.com%2Fdtonhofer%2Fprolog_notes">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fgithub.com%2Fdtonhofer%2Fprolog_notes">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fgithub.com%2Fdtonhofer%2Fprolog_notes">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/7nniv9/prolog_notes">
+              no comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/7nniv9/prolog_notes" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+
+
+<li id="story_lpdbll" data-shortid="lpdbll"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">5</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://aplwiki.com/wiki/Comparison_with_traditional_mathematics" rel="ugc noreferrer">Comparison with Traditional Mathematics</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_apl" title="Array Programming Languages such as APL, J, and K" href="/t/apl">apl</a>
+          <a class="tag tag_math" title="Mathematics" href="/t/math">math</a>
+      </span>
+        <a class="domain" href="/domains/aplwiki.com">aplwiki.com</a>
+
+
+    <div class="byline">
+      <a href="/~veqq"><img srcset="/avatars/veqq-16.png 1x, /avatars/veqq-32.png 2x" class="avatar" alt="veqq avatar" loading="lazy" decoding="async" src="/avatars/veqq-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~veqq">veqq</a>
+
+        <span title="2025-04-29 16:02:23 -0500">6 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_lpdbll" class="archive_button" type="checkbox">
+            <label for="archive_lpdbll">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Faplwiki.com%2Fwiki%2FComparison_with_traditional_mathematics">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Faplwiki.com%2Fwiki%2FComparison_with_traditional_mathematics">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Faplwiki.com%2Fwiki%2FComparison_with_traditional_mathematics">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/lpdbll/comparison_with_traditional">
+              no comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/lpdbll/comparison_with_traditional" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+
+
+<li id="story_9qgzmq" data-shortid="9qgzmq"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">24</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://devblogs.microsoft.com/oldnewthing/20250428-00/?p=111121" rel="ugc noreferrer">Why did Windows 7, for a few months, log on slower if you have a solid color background?</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_windows" title="Windows" href="/t/windows">windows</a>
+      </span>
+        <a class="domain" href="/domains/devblogs.microsoft.com">devblogs.microsoft.com</a>
+
+
+    <div class="byline">
+      <a href="/~nomnp"><img srcset="/avatars/nomnp-16.png 1x, /avatars/nomnp-32.png 2x" class="avatar" alt="nomnp avatar" loading="lazy" decoding="async" src="/avatars/nomnp-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~nomnp">nomnp</a>
+
+        <span title="2025-04-29 00:52:16 -0500">21 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_9qgzmq" class="archive_button" type="checkbox">
+            <label for="archive_9qgzmq">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fdevblogs.microsoft.com%2Foldnewthing%2F20250428-00%2F%3Fp%3D111121">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fdevblogs.microsoft.com%2Foldnewthing%2F20250428-00%2F%3Fp%3D111121">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fdevblogs.microsoft.com%2Foldnewthing%2F20250428-00%2F%3Fp%3D111121">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/9qgzmq/why_did_windows_7_for_few_months_log_on">
+              no comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/9qgzmq/why_did_windows_7_for_few_months_log_on" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+
+
+<li id="story_nmaltp" data-shortid="nmaltp"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">2</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://625.uk.com/tv_logos/bbc1_85.htm" rel="ugc noreferrer">BBC 1 1985 - A Computer Originated World (1999)</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_graphics" title="Graphics programming" href="/t/graphics">graphics</a>
+      </span>
+        <a class="domain" href="/domains/625.uk.com">625.uk.com</a>
+
+
+    <div class="byline">
+      <a href="/~susam"><img srcset="/avatars/susam-16.png 1x, /avatars/susam-32.png 2x" class="avatar" alt="susam avatar" loading="lazy" decoding="async" src="/avatars/susam-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~susam">susam</a>
+
+        <span title="2025-04-29 20:50:47 -0500">1 hour ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_nmaltp" class="archive_button" type="checkbox">
+            <label for="archive_nmaltp">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2F625.uk.com%2Ftv_logos%2Fbbc1_85.htm">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2F625.uk.com%2Ftv_logos%2Fbbc1_85.htm">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2F625.uk.com%2Ftv_logos%2Fbbc1_85.htm">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/nmaltp/bbc_1_1985_computer_originated_world_1999">
+              no comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/nmaltp/bbc_1_1985_computer_originated_world_1999" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+
+
+<li id="story_szvnbf" data-shortid="szvnbf"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">31</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://simonwillison.net/2025/Apr/28/give-it-away-for-free/" rel="ugc noreferrer">Giving software away for free</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_python" title="Python programming" href="/t/python">python</a>
+          <a class="tag tag_wasm" title="webassembly" href="/t/wasm">wasm</a>
+          <a class="tag tag_web" title="Web development and news" href="/t/web">web</a>
+      </span>
+        <a class="domain" href="/domains/simonwillison.net">simonwillison.net</a>
+
+
+    <div class="byline">
+      <a href="/~probablydan"><img srcset="/avatars/probablydan-16.png 1x, /avatars/probablydan-32.png 2x" class="avatar" alt="probablydan avatar" loading="lazy" decoding="async" src="/avatars/probablydan-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~probablydan">probablydan</a>
+
+        <span title="2025-04-28 15:37:32 -0500">31 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_szvnbf" class="archive_button" type="checkbox">
+            <label for="archive_szvnbf">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fsimonwillison.net%2F2025%2FApr%2F28%2Fgive-it-away-for-free%2F">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fsimonwillison.net%2F2025%2FApr%2F28%2Fgive-it-away-for-free%2F">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fsimonwillison.net%2F2025%2FApr%2F28%2Fgive-it-away-for-free%2F">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/szvnbf/giving_software_away_for_free">
+              20 comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/szvnbf/giving_software_away_for_free" class="mobile_comments " style="display: none;">
+  <span>20</span>
+</a>
+</li>
+
+
+
+<li id="story_7yvu6e" data-shortid="7yvu6e"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">3</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://lisp-journey.gitlab.io/blog/discovering-the-lispworks-ide/" rel="ugc noreferrer">Discovering the Lispworks IDE</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_editors" title="Code editors and IDEs without a specific tag" href="/t/editors">editors</a>
+          <a class="tag tag_lisp" title="Lisp and Scheme programming" href="/t/lisp">lisp</a>
+      </span>
+        <a class="domain" href="/domains/lisp-journey.gitlab.io">lisp-journey.gitlab.io</a>
+
+
+    <div class="byline">
+      <a href="/~veqq"><img srcset="/avatars/veqq-16.png 1x, /avatars/veqq-32.png 2x" class="avatar" alt="veqq avatar" loading="lazy" decoding="async" src="/avatars/veqq-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~veqq">veqq</a>
+
+        <span title="2025-04-29 15:52:42 -0500">6 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_7yvu6e" class="archive_button" type="checkbox">
+            <label for="archive_7yvu6e">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Flisp-journey.gitlab.io%2Fblog%2Fdiscovering-the-lispworks-ide%2F">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Flisp-journey.gitlab.io%2Fblog%2Fdiscovering-the-lispworks-ide%2F">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Flisp-journey.gitlab.io%2Fblog%2Fdiscovering-the-lispworks-ide%2F">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/7yvu6e/discovering_lispworks_ide">
+              no comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/7yvu6e/discovering_lispworks_ide" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+
+
+<li id="story_gmh1nw" data-shortid="gmh1nw"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">3</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="http://archie.macdomain.net/" rel="ugc noreferrer">Archie anonymous FTP search revival</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_retrocomputing" title="Reproductions, emulators, and other revivals of historic technologies" href="/t/retrocomputing">retrocomputing</a>
+      </span>
+        <a class="domain" href="/domains/archie.macdomain.net">archie.macdomain.net</a>
+
+
+    <div class="byline">
+      <a href="/~classichasclass"><img srcset="/avatars/classichasclass-16.png 1x, /avatars/classichasclass-32.png 2x" class="avatar" alt="classichasclass avatar" loading="lazy" decoding="async" src="/avatars/classichasclass-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~classichasclass">classichasclass</a>
+
+        <span title="2025-04-29 11:32:14 -0500">11 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_gmh1nw" class="archive_button" type="checkbox">
+            <label for="archive_gmh1nw">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/http%3A%2F%2Farchie.macdomain.net%2F">Archive.org</a>
+              <a href="https://archive.today/http%3A%2F%2Farchie.macdomain.net%2F">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=http%3A%2F%2Farchie.macdomain.net%2F">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/gmh1nw/archie_anonymous_ftp_search_revival">
+              3 comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/gmh1nw/archie_anonymous_ftp_search_revival" class="mobile_comments " style="display: none;">
+  <span>3</span>
+</a>
+</li>
+
+
+
+<li id="story_w8cfdb" data-shortid="w8cfdb"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">1</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://blog.christianposta.com/the-updated-mcp-oauth-spec-is-a-mess/" rel="ugc noreferrer">The MCP Authorization Spec Is... a Mess for Enterprise</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_ai" title="Artificial Intelligence, Machine Learning" href="/t/ai">ai</a>
+          <a class="tag tag_security" title="Netsec, appsec, and infosec" href="/t/security">security</a>
+      </span>
+        <a class="domain" href="/domains/blog.christianposta.com">blog.christianposta.com</a>
+
+
+    <div class="byline">
+      <a href="/~friendlysock"><img srcset="/avatars/friendlysock-16.png 1x, /avatars/friendlysock-32.png 2x" class="avatar" alt="friendlysock avatar" loading="lazy" decoding="async" src="/avatars/friendlysock-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~friendlysock">friendlysock</a>
+
+        <span title="2025-04-29 21:53:28 -0500">45 minutes ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_w8cfdb" class="archive_button" type="checkbox">
+            <label for="archive_w8cfdb">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fblog.christianposta.com%2Fthe-updated-mcp-oauth-spec-is-a-mess%2F">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fblog.christianposta.com%2Fthe-updated-mcp-oauth-spec-is-a-mess%2F">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fblog.christianposta.com%2Fthe-updated-mcp-oauth-spec-is-a-mess%2F">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/w8cfdb/mcp_authorization_spec_is_mess_for">
+              no comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/w8cfdb/mcp_authorization_spec_is_mess_for" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+
+
+<li id="story_jtj0ns" data-shortid="jtj0ns"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">2</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://thoughtbot.com/blog/between-immutability-and-memoization-you-might-have-to-choose" rel="ugc noreferrer">Between immutability and memoization, you might have to choose</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_ruby" title="Ruby programming" href="/t/ruby">ruby</a>
+      </span>
+        <a class="domain" href="/domains/thoughtbot.com">thoughtbot.com</a>
+
+
+    <div class="byline">
+      <a href="/~pushcx"><img srcset="/avatars/pushcx-16.png 1x, /avatars/pushcx-32.png 2x" class="avatar" alt="pushcx avatar" loading="lazy" decoding="async" src="/avatars/pushcx-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~pushcx">pushcx</a>
+
+        <span title="2025-04-29 17:33:19 -0500">5 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_jtj0ns" class="archive_button" type="checkbox">
+            <label for="archive_jtj0ns">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fthoughtbot.com%2Fblog%2Fbetween-immutability-and-memoization-you-might-have-to-choose">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fthoughtbot.com%2Fblog%2Fbetween-immutability-and-memoization-you-might-have-to-choose">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fthoughtbot.com%2Fblog%2Fbetween-immutability-and-memoization-you-might-have-to-choose">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/jtj0ns/between_immutability_memoization_you">
+              no comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/jtj0ns/between_immutability_memoization_you" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+
+
+<li id="story_djq7xn" data-shortid="djq7xn"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">3</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://cloud.google.com/blog/topics/threat-intelligence/2024-zero-day-trends" rel="ugc noreferrer">Hello 0-Days, My Old Friend: A 2024 Zero-Day Exploitation Analysis</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_security" title="Netsec, appsec, and infosec" href="/t/security">security</a>
+      </span>
+        <a class="domain" href="/domains/cloud.google.com">cloud.google.com</a>
+
+
+    <div class="byline">
+      <a href="/~freddyb"><img srcset="/avatars/freddyb-16.png 1x, /avatars/freddyb-32.png 2x" class="avatar" alt="freddyb avatar" loading="lazy" decoding="async" src="/avatars/freddyb-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~freddyb">freddyb</a>
+
+        <span title="2025-04-29 08:25:59 -0500">14 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_djq7xn" class="archive_button" type="checkbox">
+            <label for="archive_djq7xn">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fcloud.google.com%2Fblog%2Ftopics%2Fthreat-intelligence%2F2024-zero-day-trends">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fcloud.google.com%2Fblog%2Ftopics%2Fthreat-intelligence%2F2024-zero-day-trends">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fcloud.google.com%2Fblog%2Ftopics%2Fthreat-intelligence%2F2024-zero-day-trends">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/djq7xn/hello_0_days_my_old_friend_2024_zero_day">
+              4 comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/djq7xn/hello_0_days_my_old_friend_2024_zero_day" class="mobile_comments " style="display: none;">
+  <span>4</span>
+</a>
+</li>
+
+
+
+<li id="story_p8icyo" data-shortid="p8icyo"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">1</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://medium.com/packt-hub/the-world-of-compiler-backends-9b27a3e37866" rel="ugc noreferrer">The world of compiler backends</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_compilers" title="Compiler design" href="/t/compilers">compilers</a>
+      </span>
+        <a class="domain" href="/origins/medium.com%2Fpackt-hub">medium.com/packt-hub</a>
+
+
+    <div class="byline">
+      <a href="/~azhenley"><img srcset="/avatars/azhenley-16.png 1x, /avatars/azhenley-32.png 2x" class="avatar" alt="azhenley avatar" loading="lazy" decoding="async" src="/avatars/azhenley-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~azhenley">azhenley</a>
+
+        <span title="2025-04-29 20:07:54 -0500">2 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_p8icyo" class="archive_button" type="checkbox">
+            <label for="archive_p8icyo">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fmedium.com%2Fpackt-hub%2Fthe-world-of-compiler-backends-9b27a3e37866">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fmedium.com%2Fpackt-hub%2Fthe-world-of-compiler-backends-9b27a3e37866">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fmedium.com%2Fpackt-hub%2Fthe-world-of-compiler-backends-9b27a3e37866">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/p8icyo/world_compiler_backends">
+              no comments</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/p8icyo/world_compiler_backends" class="mobile_comments zero" style="display: none;">
+  <span>0</span>
+</a>
+</li>
+
+
+
+<li id="story_bpf18i" data-shortid="bpf18i"
+class="story 
+
+
+
+
+">
+<div class="story_liner h-entry">
+  <div class="voters">
+    <a class="upvoter" href="/login">2</a>
+  </div>
+  <div class="details">
+    <span role="heading" aria-level="1" class="link h-cite u-repost-of">
+        <a class="u-url" href="https://hackaday.com/2023/07/25/selectric-typewriter-goes-from-trash-can-to-linux-terminal/" rel="ugc noreferrer">Selectric Typewriter Goes From Trash Can To Linux Terminal (2023)</a>
+    </span>
+      <span class="tags">
+          <a class="tag tag_hardware" title="Hardware" href="/t/hardware">hardware</a>
+          <a class="tag tag_retrocomputing" title="Reproductions, emulators, and other revivals of historic technologies" href="/t/retrocomputing">retrocomputing</a>
+      </span>
+        <a class="domain" href="/domains/hackaday.com">hackaday.com</a>
+
+
+    <div class="byline">
+      <a href="/~minimax"><img srcset="/avatars/minimax-16.png 1x, /avatars/minimax-32.png 2x" class="avatar" alt="minimax avatar" loading="lazy" decoding="async" src="/avatars/minimax-16.png" width="16" height="16"></a>
+          <span> via </span>
+        <a class="u-author h-card" href="/~minimax">minimax</a>
+
+        <span title="2025-04-29 15:54:57 -0500">6 hours ago</span>
+
+          <span> | </span>
+          <span class="dropdown_parent">
+            <input id="archive_bpf18i" class="archive_button" type="checkbox">
+            <label for="archive_bpf18i">caches</label>
+            <div class="archive-dropdown">
+              <a href="https://web.archive.org/web/3/https%3A%2F%2Fhackaday.com%2F2023%2F07%2F25%2Fselectric-typewriter-goes-from-trash-can-to-linux-terminal%2F">Archive.org</a>
+              <a href="https://archive.today/https%3A%2F%2Fhackaday.com%2F2023%2F07%2F25%2Fselectric-typewriter-goes-from-trash-can-to-linux-terminal%2F">Archive.today</a>
+              <a href="https://ghostarchive.org/search?term=https%3A%2F%2Fhackaday.com%2F2023%2F07%2F25%2Fselectric-typewriter-goes-from-trash-can-to-linux-terminal%2F">Ghostarchive</a>
+            </div>
+          </span>
+          <span class="comments_label">
+            <span> | </span>
+            <a role="heading" aria-level="2" href="/s/bpf18i/selectric_typewriter_goes_from_trash_can">
+              1 comment</a>
+          </span>
+    </div>
+  </div>
+</div>
+<a href="/s/bpf18i/selectric_typewriter_goes_from_trash_can" class="mobile_comments " style="display: none;">
+  <span>1</span>
+</a>
+</li>
+
+</ol>
+
+
+
+<div class="morelink">
+
+    <a href="/page/2">Page 2 &gt;&gt;</a>
+</div>
+
+  </div>
+
+  <footer>
+      <span id="office-hours-live">
+    </span>
+
+    <nav>
+      <a href="/about">About</a>
+      <a href="/tags">Tags</a>
+      <a href="/filters">Filter</a>
+      <a href="/moderations">Moderation Log</a>
+    </nav>
+  </footer>
+
+  <span id="iab-pcm-sdk"></span><span id="iab-autofill-sdk"></span>
+</body>
+</html>
